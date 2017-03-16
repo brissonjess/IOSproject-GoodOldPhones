@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B63F6E41E7B2908002813AA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B63F6E31E7B2908002813AA /* Product.swift */; };
 		9B907DA01E7888AB0027D5BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B907D9F1E7888AB0027D5BC /* AppDelegate.swift */; };
 		9B907DA51E7888AB0027D5BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B907DA31E7888AB0027D5BC /* Main.storyboard */; };
 		9B907DA71E7888AB0027D5BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B907DA61E7888AB0027D5BC /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B63F6E31E7B2908002813AA /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		9B907D9C1E7888AB0027D5BC /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B907D9F1E7888AB0027D5BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B907DA41E7888AB0027D5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				9B907DB11E788EE80027D5BC /* ProductViewController.swift */,
 				9B907DB31E78968E0027D5BC /* ContactViewController.swift */,
 				9B907DB51E789E050027D5BC /* ProductsTableViewController.swift */,
+				9B63F6E31E7B2908002813AA /* Product.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			files = (
 				9B907DB21E788EE80027D5BC /* ProductViewController.swift in Sources */,
 				9B907DB61E789E050027D5BC /* ProductsTableViewController.swift in Sources */,
+				9B63F6E41E7B2908002813AA /* Product.swift in Sources */,
 				9B907DA01E7888AB0027D5BC /* AppDelegate.swift in Sources */,
 				9B907DB41E78968E0027D5BC /* ContactViewController.swift in Sources */,
 			);
@@ -305,6 +309,7 @@
 				9B907DB01E7888AB0027D5BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
